@@ -78,7 +78,8 @@ class PageTableSeeder extends Seeder
                 ['img' => url('/images/slides/deltion-bus.png')],
                 ['img' => url('/images/slides/depoort.png')],
                 ['img' => url('/images/slides/mountains-blue.jpg')]
-            ])
+            ]),
+            'position' => 2
         ]);
     }
 }
