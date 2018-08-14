@@ -14,7 +14,7 @@ class UsersTableSeeder extends Seeder
         \App\User::firstOrCreate([
             'email'=> 'bram.klapwijk00@outlook.com',
             'name' => 'Bram Klapwijk',
-            'password'=> bcrypt('pass1234x')
+            'password'=> bcrypt(env('ADMIN_PASS'))
         ]);
     }
 }
