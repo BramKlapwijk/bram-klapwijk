@@ -1,0 +1,117 @@
+.banner {
+    padding-top: 7%;
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .card-body {
+    display: flex;
+}
+
+.banner ul {
+    list-style: none;
+}
+
+.collection {
+    height: 900px;
+}
+
+.add-box {
+    border: dotted lightskyblue 2px;
+    text-align: center;
+}
+
+.add-box i {
+    font-size: 60px;
+    margin-top: calc(50% - 30px);
+}
+
+.server-add-box i {
+    font-size: 60px;
+    margin-top: calc(30% - 30px);
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group label {
+    padding-right: 20px;
+}
+
+.mdl-select {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    font-size: 16px;
+    font-family: "Helvetica","Arial",sans-serif;
+    margin: 0;
+    padding: 4px 0;
+    width: 100%;
+    background: 0 0;
+    text-align: left;
+}
+
+.add-box:hover {
+    opacity: 0.3;
+}
+
+.empty-icon {
+    border: dotted lightskyblue 2px;
+}
+
+.slider-editable-card {
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.editable-card:hover {
+    transition: opacity 0.5s;
+    opacity: 0.5;
+}
+
+.hide {
+    display: none;
+}
+
+.trash-card {
+    position: relative;
+    left: 220px;
+    color: black;
+    bottom: 240px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.slider-trash-card {
+    float: right;
+    margin-left: 20px;
+    color: black;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+footer {
+    background-image: url('/images/bus.jpg');
+    background-position: right;
+    font-size: 300%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+footer li {
+    padding-left: 18%;
+}
+
+footer i {
+    color: #312c2c;
+}
+
