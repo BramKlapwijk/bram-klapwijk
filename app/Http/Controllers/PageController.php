@@ -37,7 +37,7 @@ class PageController extends Controller
         $path = public_path('images/page-images/'. $id .'/'. $type);
 
         if (!is_dir($path)) {
-            File::makeDirectory($path, 0777, true);
+            File::makeDirectory($path, 777, true);
         }
 
         $img->save($path. '/' . $name . '.png');

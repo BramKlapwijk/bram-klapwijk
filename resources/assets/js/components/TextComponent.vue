@@ -1,6 +1,6 @@
 <template>
     <div class="banner" :style="{backgroundImage: 'url('+background+')'}">
-        <div class="card mx-auto w-50">
+        <div class="card mx-auto">
             <div class="card-body">
                 <div v-if="image">
                     <img style="width: 400px; border-radius: 4px" :src="image">
@@ -25,5 +25,12 @@
 </script>
 
 <style scoped>
-
+    .card {
+        width: 50%;
+    }
+    @media only screen and (max-width: 1183px) {
+        .card {
+            width: 70% !important;
+        }
+    }
 </style>
