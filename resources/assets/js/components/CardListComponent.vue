@@ -1,5 +1,5 @@
 <template>
-    <div class="collection mt-5 container">
+    <div class="mt-5 container">
         <div class="row">
             <a v-for="card in cards" target="_blank" :href="card.url" class="showcase">
                 <div></div>

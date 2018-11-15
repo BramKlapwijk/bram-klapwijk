@@ -1,9 +1,9 @@
 <template>
-    <div id="carouselIndicators" style="height: 900px" class="carousel slide" data-ride="carousel">
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li v-for="(slide, key) in slides" :class="{active: isActive(key)}" :onclick="this.pos = key"></li>
         </ol>
-        <div style="height: 900px" class="carousel-inner">
+        <div class="carousel-inner">
             <div v-for="(slide, key) in slides" class="carousel-item" :class="{active: isActive(key)}">
                 <img class="d-block w-100" :src="slide.img" alt="First slide">
             </div>
